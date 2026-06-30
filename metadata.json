@@ -1,0 +1,6 @@
+{
+  "name": "Cravine by Fatima",
+  "description": "A premium luxury website for Cravine by Fatima cake bakery, specializing in custom, wedding, birthday cakes, and sweet treats with a rich interactive custom builder.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

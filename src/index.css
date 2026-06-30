@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400&family=Outfit:wght@200;300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Georgia", serif;
+  --font-sans: "Outfit", system-ui, -apple-system, sans-serif;
+  
+  --color-cream: #fdfaf6;
+  --color-blush: #f9e1e3;
+  --color-gold: #c5a059;
+  --color-chocolate: #3d2b1f;
+  --color-beige: #f5f2ed;
+}
+
+/* Custom Scrollbar configurations for category list scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Base custom interactive transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(18%) sepia(45%) saturate(1478%) hue-rotate(345deg) brightness(91%) contrast(92%);
+  cursor: pointer;
+}
